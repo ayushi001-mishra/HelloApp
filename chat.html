@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hello-Chat App</title>
+  <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+  <script defer src="client.js"></script>
+  <style>
+    @import url(styleChat.css);
+</style>
+  <link rel="icon" type="image/x-icon" href="chat.png">
+</head>
+<body>
+  <div id="message-container"></div>
+  <form id="send-container">
+    <input type="text" id="message-input">
+    <button type="submit" id="send-button"><b>Send</b></button>
+  </form>
+</body>
+</html>
